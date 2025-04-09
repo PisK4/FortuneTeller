@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "LNavOpened": "true",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
         "WINavOpened": "true",
@@ -11,7 +11,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "靖乐",
-    "active_character": "科里.png",
+    "active_character": "灵姿.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -240,17 +240,17 @@
                 "right": 0,
                 "bottom": 2,
                 "margin": "unset",
-                "height": 829,
-                "width": 1008
+                "height": "829",
+                "width": "1008"
             },
             "right-nav-panel": {
-                "top": 0,
-                "left": 1393,
-                "right": 0,
-                "bottom": 28,
+                "top": "0",
+                "left": "1393",
+                "right": "0",
+                "bottom": "28",
                 "margin": "unset",
-                "width": 368,
-                "height": 830
+                "width": "368",
+                "height": "832"
             }
         },
         "movingUIPreset": "Default",
