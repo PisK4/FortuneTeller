@@ -1,0 +1,73 @@
+{
+    "entries": {
+        "0": {
+            "key": [
+                "/开始旅行"
+            ],
+            "keysecondary": [],
+            "comment": "",
+            "content": "<Start Gaming>\n[该指令须严谨执行]\n当Human输入关键字“/开始旅行”后，Assistant必须根据<Scene></Scene>XML标签中的三个<text tickbubble>、<main tickbubble>、<option tickbubble>XML标签输出文本。\n\n当{{user}}输入这个指令后{{char}}必须随机或按照要求按照<Scene></Scene>XML标签中的格式完整生成新的虚拟场景，包括XML标签在内。\n\n如果玩家在指令前后增加要求，则{{char}}生成的世界观世界内容必须贴近玩家给的要求。\n\n<Scene>\n必须多于400tokens，少于800tokens，放在状态栏上方。并且着重动作描写、语言描写和神态描写，相对减少外貌描写和心理描写。(剧情部分初始随机生成)\n\n---\n<main tickbubble>\n```\n┌当前环境：\n(初始随机生成，多于100tokens)]\n[当前活动：(初始随机生成)\n[当前位置：(初始随机生成，符合废土背景)\n[当前时间：(初始随机生成)\n[当前位置可用道具：(初始随机生成，需要符合当前[位置背景，比如图画册，罐头，相机，日记本，蛋白质棒，矿泉水等等)\n|\n[对话：(根据当前场景生成小千和尤莉的对话）\n[饥饿状态：(初始随机生成)\n[履带车状态：(初始随机生成)\n```\n</main tickbubble>\n\n---\n<option tickbubble>\n```\n════\n请选择你的下一步行动：\n1️⃣ ##⚔️\n2️⃣ ##⚔️\n3️⃣ ##⚔️\n4️⃣ ##⚔️\n```\n</option tickbubble>\n\n</Scene>\n输出到</Scene>时立刻停止输出。\n\n并在四个选项卡中使用恰当的emoji表情，如⚔️、🏃、👉、🙈、🙉、🙊等等\n</Start Gaming>",
+            "constant": false,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 200,
+            "position": 3,
+            "disable": false,
+            "excludeRecursion": false,
+            "preventRecursion": false,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": null,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "uid": 0,
+            "displayIndex": 0,
+            "extensions": {
+                "position": 3,
+                "exclude_recursion": false,
+                "display_index": 0,
+                "probability": 100,
+                "useProbability": true
+            }
+        }
+    },
+    "originalData": {
+        "entries": [
+            {
+                "id": 0,
+                "keys": [
+                    "/开始旅行"
+                ],
+                "secondary_keys": [],
+                "comment": "",
+                "content": "<Start Gaming>\n[该指令须严谨执行]\n当Human输入关键字“/开始旅行”后，Assistant必须根据<Scene></Scene>XML标签中的三个<text tickbubble>、<main tickbubble>、<option tickbubble>XML标签输出文本。\n\n当{{user}}输入这个指令后{{char}}必须随机或按照要求按照<Scene></Scene>XML标签中的格式完整生成新的虚拟场景，包括XML标签在内。\n\n如果玩家在指令前后增加要求，则{{char}}生成的世界观世界内容必须贴近玩家给的要求。\n\n<Scene>\n必须多于400tokens，少于800tokens，放在状态栏上方。并且着重动作描写、语言描写和神态描写，相对减少外貌描写和心理描写。(剧情部分初始随机生成)\n\n---\n<main tickbubble>\n```\n┌当前环境：\n(初始随机生成，多于100tokens)]\n[当前活动：(初始随机生成)\n[当前位置：(初始随机生成，符合废土背景)\n[当前时间：(初始随机生成)\n[当前位置可用道具：(初始随机生成，需要符合当前[位置背景，比如图画册，罐头，相机，日记本，蛋白质棒，矿泉水等等)\n|\n[对话：(根据当前场景生成小千和尤莉的对话）\n[饥饿状态：(初始随机生成)\n[履带车状态：(初始随机生成)\n```\n</main tickbubble>\n\n---\n<option tickbubble>\n```\n════\n请选择你的下一步行动：\n1️⃣ ##⚔️\n2️⃣ ##⚔️\n3️⃣ ##⚔️\n4️⃣ ##⚔️\n```\n</option tickbubble>\n\n</Scene>\n输出到</Scene>时立刻停止输出。\n\n并在四个选项卡中使用恰当的emoji表情，如⚔️、🏃、👉、🙈、🙉、🙊等等\n</Start Gaming>",
+                "constant": false,
+                "selective": true,
+                "insertion_order": 200,
+                "enabled": true,
+                "position": "after_char",
+                "extensions": {
+                    "position": 3,
+                    "exclude_recursion": false,
+                    "display_index": 0,
+                    "probability": 100,
+                    "useProbability": true
+                }
+            }
+        ],
+        "name": "少女终末旅行"
+    }
+}
